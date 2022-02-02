@@ -1,0 +1,24 @@
+.main{
+	text-align: justify;
+	margin-left: 100px;
+	width: 500px;
+	color: #ffffff;
+	padding: 50px;
+	display: block;
+	float: left;
+}
+
+.main h1{
+	text-align: center;
+}
+.main p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.hobbies{
+	margin-right: 100px;
+	float: right;
+	display: block;
+	
+}

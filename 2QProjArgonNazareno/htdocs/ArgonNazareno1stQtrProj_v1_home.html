@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Alternative Assessment 2</title>
+		<link rel="stylesheet" type="text/css" href="../css/header_footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css">
+</head>
+<body>
+	<div class="topnav">
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>
+								<h2>My Life</h2>
+							</td>
+						<tr>					
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td width="720px">
+								<div class="search">
+									<form action="pugeh">
+										<input type="text" placeholder="Search.." name="search">
+									</form>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td> &nbsp; </td>
+				<td>
+					<table>
+						<tr>
+							<td>
+								<a href="ArgonNazareno1stQtrProj_v1_home.html">Home</a>
+							</td>
+							<td>
+								<a href="ArgonNazareno2ndQtrProj_v1_about.htmlt">About</a>		
+							</td>
+							<td>
+								<a href="ArgonNazareno2ndQtrProj_v1_adventure.html">Adventure</a>		
+							</td>
+							<td>
+								<a href="#blogs">Blogs</a>		
+							</td>
+							<td>
+								<a href="ArgonNazareno1stQtrProj_v1_hobbies.html">Hobbies</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>	
+	<hr class="line">
+	<div class="main">
+		<div>
+			<h1>My Lifestyle<h1>
+		</div>
+		<div class="slideshow">
+			<div class="slide">
+				<img src="../images/family.jpg" width="1000px" height="500px">
+			</div>
+			<div class="slide">
+				<img src="../images/boyscout.jpg" width="1000px" height="700px">
+			</div>
+			<div class="slide">
+				<img src="../images/restaurant.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+	</div>
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("slide");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	}
+</script>
+	<table style="color:#ffffff; margin-left: 20px;">
+		<tr>
+			<td width="500px">
+				<h1 style="color:#4CD7D0">Lost Ilocos</h1>
+				<br /> 
+					<p> Every summer, me and my family go out on vacation. In one of our ventures, we were so excited to get to Ilocos. We had hoped to get there fast and take pictures and have fun. However, that was not the case for us. On the way to Ilocos, we faced a lot of traffic that drastically hindered our speed.As if that wasn't bad enough, we got lost in our way and had to find our way back in the heavy traffic.<a href="ArgonNazareno2ndQtrProj_v1_adventure.html" >See more....</a></p>
+			</td>
+			<td width="200px"></td>
+			<td width="500px">
+				<h1 style="color:#4CD7D0">AI in Education</h1>
+				<p> It is undeniable that there are benefits in AI. I, however, ultimately think that the traditional way of teaching is better. Using AI, each student will experience a unique way of teaching appropriate to their preferences and needs. Another benefit of AI in education is the speed of responses to questions from sude <a href="#" >See more....</a></p>
+			</td>
+		</tr>
+	</table>
+	<hr class="line">
+	<div class="footer">
+		<table>
+			<tr>
+				<td width="500px">
+					<table>
+						<tr>
+							<td colspan="5">
+								<h2>My Life</h2>
+							</td>
+						<tr>
+						<tr>
+							<td colspan="5">
+								&#169; Copyright - R.Nazareno
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="ArgonNazareno1stQtrProj_v1_home.html">Home</a>
+							</td>
+							<td>
+								<a href="ArgonNazareno2ndQtrProj_v1_about.html">About</a>		
+							</td>
+							<td>
+								<a href="ArgonNazareno2ndQtrProj_v1_adventure.html">Adventure</a>		
+							</td>
+							<td>
+								<a href="#blogs">Blogs</a>		
+							</td>
+							<td>
+								<a href="ArgonNazareno1stQtrProj_v1_hobbies.html">Hobbies</a>
+							</td>
+						<tr>
+					</table>
+				</td>
+				<td>&nbsp;</td>
+				<td width="300px">
+					<table>
+						<tr>
+							<td>
+								Social<br />
+								<p>Facebook:</p>
+								<a class="sprite1" href="https://www.facebook.com/ritze.cab.1/"></a>
+							</td>
+						</tr>	
+						<tr>
+							<td>
+								<p>Instagram</p>
+								<a class="sprite2" href="https://www.instagram.com/klrns_crnl/"></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Twitter</p>
+								<a class="sprite3" href="https://twitter.com/akonlnghindi"></a>
+							</td>
+						</tr>	
+					</table>
+				</td>
+				<td> &nbsp; </td>
+				<td>
+					<table>
+						<tr>
+							<td>
+								Phone<br />
+								0915-927-9405
+							</td>
+						</tr>
+						<tr><td>&nbsp;</td></tr>
+						<tr>
+							<td>
+								Email<br />
+								rbnazareno@cbzrc.pshs.edu.ph
+							</td>
+						</tr>
+						<tr><td>&nbsp;</td></tr>
+						<tr>
+							<td>
+								#22 Bonifacio Street<br />
+								Poblacion 1, Infanta, <br />
+								Quezon, Philippines
+							</td>
+						</tr>
+						<tr><td>&nbsp;</td></tr>
+						<tr>
+							<td>
+								Purok Villa Gracia<br />
+								Brgy. Calios, Sta. Cruz, <br />
+								Laguna, Philippines
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>	
+	</div>
+</body>
+</html>

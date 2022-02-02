@@ -1,0 +1,71 @@
+body{
+background-color: black;
+font-family: verdana;
+}
+.line{
+	border: 1px solid #ffffff;
+	width: 100%;
+}
+.topnav{
+	overflow: hidden;
+}
+.topnav a{
+	text-align: center;
+	display: block;
+	color: #FFFF8A;
+	float: right;
+	padding: 14px 16px;
+}
+
+.topnav a:hover {
+	color: green;
+}
+
+.topnav h2{
+	color: #ffffff;
+	float: left;
+}
+.topnav .search{
+	float: right;
+	padding: 14px 16px;
+}
+.footer {
+	float: left;
+	color: #ffffff;
+}
+.footer a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	float: left;
+	color: #FFFF8A;
+}	
+
+.footer a:hover {
+	color: green;
+}
+	
+.footer .socmed{
+	float: right;
+	
+	
+	text-align: center;
+}
+
+.footer .sprite1 {
+	background: url('../images/css_sprites.png') no-repeat 13.889% 13.889%;
+	width: 20px;
+	height: 20px;
+}
+
+.footer .sprite2 {
+	background: url('../images/css_sprites.png') no-repeat 13.889% 86.111%;
+	width: 20px;
+	height: 20px;
+}
+
+.footer .sprite3 {
+	background: url('../images/css_sprites.png') no-repeat 85.135% 14.865%;
+	width: 20px;
+	height: 20px;
+}
